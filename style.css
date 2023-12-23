@@ -41,7 +41,7 @@ header {
 }
 
 .btn-set {
-    margin-top: 30px;
+    margin-top: 40px;
     text-decoration: none;
 }
 
@@ -78,4 +78,35 @@ header {
     color: rgb(145, 144, 144);
     font-size: 14px;
     line-height: 25px;
+}
+
+.second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.grid-1 img {
+    margin-left: -20px;
+    /* width: 91%; */
+}
+
+.grid-2 {
+    margin-top: 50px;
+}
+
+.word {
+    margin-top: 40px;
+}
+
+.word h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.word p {
+    line-height: 30px;
+    color: rgb(145, 144, 144);
+    margin-top: 10px;
 }
