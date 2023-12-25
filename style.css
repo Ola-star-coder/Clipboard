@@ -160,6 +160,7 @@ header {
 
 .caps-2 h2 {
     margin: 10px 0px;
+    font-size: 34px;
     color: rgb(65, 65, 65);
 }
 
@@ -213,6 +214,7 @@ header {
 .clip h3 {
     margin-bottom: 20px;
     color: rgb(65, 65, 65);
+    font-size: 35px;
 }
 
 .clip p {
@@ -272,6 +274,100 @@ footer {
 
 /* RESPONSIVE */
 
+@media screen and (max-width:1181px) {
+    .second {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:1139px) {
+    .second {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .grid-1 img {
+        margin-left: 0px;
+        /* width: 91%; */
+    }
+}
+
+@media screen and (max-width:1068px) {
+    .domen {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        transition: 1s;
+        cursor: pointer;
+        color: rgb(90, 90, 90);
+    }
+
+    .image-wonf img {
+        width: 30%;
+        margin-left: 50px;
+    }
+
+    .first p {
+        color: rgb(145, 144, 144);
+        margin-top: 10px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:1016px) {
+    .word h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .grid-4 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .first p {
+        color: rgb(145, 144, 144);
+        margin-top: 10px;
+        line-height: 25px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .grid-1 img {
+        margin-left: 0px;
+        width: 90%;
+    }
+
+    .caps-image img {
+        text-align: center;
+        margin-top: 50px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .social-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .social {
+        text-align: center;
+        margin: 20px 0px;
+    }
+}
+
 @media screen and (max-width:780px) {
     header {
         background-image: url(images/bg-header-mobile.png);
@@ -300,9 +396,8 @@ footer {
     .content p {
         margin-bottom: 10px;
         color: rgb(145, 144, 144);
-        font-size: 17px;
         line-height: 30px;
-        margin: 10px;
+        padding: 20px;
     }
 
     .second {
@@ -329,7 +424,7 @@ footer {
 
     .caps h3 {
         margin-bottom: 10px;
-        font-size: 35px;
+        font-size: 36px;
     }
 
     .caps p {
@@ -350,7 +445,7 @@ footer {
     .caps-2 h2 {
         margin: 10px 0px;
         color: rgb(65, 65, 65);
-        font-size: 31px;
+        font-size: 30px;
     }
 
     .caps-2 p {
@@ -368,7 +463,7 @@ footer {
     .clip h3 {
         margin-bottom: 20px;
         color: rgb(65, 65, 65);
-        font-size: 32px;
+        font-size: xx-large;
     }
 
     .clip p {
